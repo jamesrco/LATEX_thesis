@@ -1,0 +1,155 @@
+\contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}
+\contentsline {chapter}{\numberline {2}The Multiple Fates of Sinking Particles in the North Atlantic Ocean}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Abstract}{34}{section.2.1}
+\contentsline {section}{\numberline {2.2}Introduction}{35}{section.2.2}
+\contentsline {section}{\numberline {2.3}Methods and Model Description}{38}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Cruises and Study Locations}{38}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Sediment Trap Deployments}{38}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Determination of Particulate Carbon Fluxes}{39}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Bacterial Production}{39}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Photosynthetic Pigments}{42}{subsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.5.1}Remote Sensing Data Analysis}{42}{subsubsection.2.3.5.1}
+\contentsline {subsection}{\numberline {2.3.6}Respiration Measurements}{42}{subsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.6.1}Water Column Respiration}{42}{subsubsection.2.3.6.1}
+\contentsline {subsubsection}{\numberline {2.3.6.2}Respiration by Bacteria Attached to Sinking Particles}{43}{subsubsection.2.3.6.2}
+\contentsline {subsubsection}{\numberline {2.3.6.3}Use of Winkler Titrations to Validate Respiration Rate Calculations}{44}{subsubsection.2.3.6.3}
+\contentsline {subsection}{\numberline {2.3.7}Bacterial Growth Efficiency}{44}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.8}Sensitivity Analyses of a Simple Yet Mechanistic Flux Attenuation Model}{45}{subsection.2.3.8}
+\contentsline {subsubsection}{\numberline {2.3.8.1}Model Specification}{45}{subsubsection.2.3.8.1}
+\contentsline {subsubsection}{\numberline {2.3.8.2}Model Sensitivity Analyses and Bootstrap Monte Carlo Simulation}{47}{subsubsection.2.3.8.2}
+\contentsline {section}{\numberline {2.4}Results and Discussion of Field Observations}{48}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}POC and PIC Export}{48}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Bacterial Production}{50}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Respiration Rates}{53}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Model Results and Discussion}{55}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Sensitivity Analyses}{55}{subsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.1.1}Minimum Constraints on Average Particle Sinking Velocity}{55}{subsubsection.2.5.1.1}
+\contentsline {subsubsection}{\numberline {2.5.1.2}Partitioning of Sinking POC Flux Attenuation Between Direct Bacterial Respiration and Other Degradation Processes}{56}{subsubsection.2.5.1.2}
+\contentsline {subsubsection}{\numberline {2.5.1.3}Enigmatically Low Efficiencies of Bacterial Growth}{61}{subsubsection.2.5.1.3}
+\contentsline {subsubsection}{\numberline {2.5.1.4}Possible Imbalances in the North Atlantic Carbon Budget}{62}{subsubsection.2.5.1.4}
+\contentsline {section}{\numberline {2.6}Conclusion}{64}{section.2.6}
+\contentsline {section}{\numberline {2.7}Acknowledgments}{66}{section.2.7}
+\contentsline {section}{\numberline {2.8}Availability of Data and Code }{66}{section.2.8}
+\contentsline {chapter}{\numberline {3}LOBSTAHS: An Adduct-Based Lipidomics Strategy for Discovery and Identification of Oxidative Stress Biomarkers}{83}{chapter.3}
+\contentsline {section}{\numberline {3.1}Abstract}{84}{section.3.1}
+\contentsline {section}{\numberline {3.2}Introduction}{85}{section.3.2}
+\contentsline {section}{\numberline {3.3}Theory and Design of Software and Databases}{87}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Databases}{87}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Design and Scope of Lipid-Oxylipin Databases}{87}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Database Generation}{87}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Determination of Relative Abundances of Adduct Ions for Inclusion in Databases}{88}{subsubsection.3.3.1.3}
+\contentsline {subsection}{\numberline {3.3.2}Data Analysis Workflow}{89}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Lipidomics Workflow Based on xcms, CAMERA, and LOBSTAHS}{89}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Database Assignments and Progressive Screening in LOBSTAHS using Orthogonal Criteria}{89}{subsubsection.3.3.2.2}
+\contentsline {section}{\numberline {3.4}Experimental Section}{92}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Model Dataset Used to Demonstrate the Workflow}{92}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Sample Collection and Extraction}{92}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}HPLC-ESI-MS Analysis}{92}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Analysis of \emph {P. tricornutum} Data Using LOBSTAHS}{93}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.5}Results and Discussion}{93}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Screening and Annotation of \emph {P. tricornutum} Data in LOBSTAHS}{93}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}Identification and Annotation of Isomers and Isobars}{95}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}Annotation of Potential Regioisomers}{96}{subsubsection.3.5.1.2}
+\contentsline {subsection}{\numberline {3.5.2}Evaluation of Screening and Identification Performance using Two Methods}{96}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Resilience of Core \emph {P. tricornutum} Lipidome under Oxidative Stress}{97}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Differences in Degree of Remodeling Between Lipid Classes and Functional Groupings}{97}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Fatty Acid Chain Elongation is an Apparent Response to Oxidative Stress in the Chloroplast}{98}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Fatty Acid Chain Elongation Also Evident in Lipids Localized to Other Cell Compartments}{99}{subsection.3.5.6}
+\contentsline {subsection}{\numberline {3.5.7}Significant Enrichment Observed in TAG}{99}{subsection.3.5.7}
+\contentsline {subsection}{\numberline {3.5.8}No Overall Increase Observed in Lipidome Oxidation State}{100}{subsection.3.5.8}
+\contentsline {section}{\numberline {3.6}Conclusion}{100}{section.3.6}
+\contentsline {section}{\numberline {3.7}Acknowledgments }{101}{section.3.7}
+\contentsline {section}{\numberline {3.8}Availability of Data and Code }{102}{section.3.8}
+\contentsline {chapter}{\numberline {4}Mechanisms and Biogeochemical Significance of Lipid Photooxidation in Coastal Surface Waters of West Antarctica}{111}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abbreviations}{112}{section.4.1}
+\contentsline {section}{\numberline {4.2}Abstract}{114}{section.4.2}
+\contentsline {section}{\numberline {4.3}Introduction}{115}{section.4.3}
+\contentsline {section}{\numberline {4.4}Experimental Section}{118}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}UV Photooxidation Experiments}{118}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Preparation of Phosphatidylcholine Liposomes}{118}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Experimental Design and Treatments}{121}{subsubsection.4.4.1.2}
+\contentsline {subsubsection}{\numberline {4.4.1.3}Sampling and Extraction Protocol}{122}{subsubsection.4.4.1.3}
+\contentsline {subsubsection}{\numberline {4.4.1.4}Supplementary Assays Employed During Certain Experiments}{122}{subsubsection.4.4.1.4}
+\contentsline {subsection}{\numberline {4.4.2}Measurements of Incoming Irradiance}{123}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Water Column Irradiance Profiles; Calculation of Downwelling Attenuation Coefficients (\emph {K\textsubscript {d}})}{125}{subsubsection.4.4.2.1}
+\contentsline {subsection}{\numberline {4.4.3}Benchtop Absorbance and Transmissivity Measurements}{126}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Laboratory Determination of H\textsubscript {2}O\textsubscript {2} and O\textsubscript {2}\textsuperscript {-} Photoproduction and Decay}{127}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Water Column Sample Collection}{128}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}High-Resolution HPLC-ESI-MS Analysis}{129}{subsection.4.4.6}
+\contentsline {subsubsection}{\numberline {4.4.6.1}Identification and Quantification of Lipids \& Oxidized Lipids}{129}{subsubsection.4.4.6.1}
+\contentsline {subsection}{\numberline {4.4.7}Calculation of Broadband Polychromatic Apparent Quantum Yields (AQY)}{130}{subsection.4.4.7}
+\contentsline {subsubsection}{\numberline {4.4.7.1}Determination of Uncertainties in AQY Estimates}{132}{subsubsection.4.4.7.1}
+\contentsline {subsection}{\numberline {4.4.8}Lipid Photooxidation Rate Estimates}{133}{subsection.4.4.8}
+\contentsline {section}{\numberline {4.5}Results}{133}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Irradiance Observations; UV Penetration Through Shallow Mixed Layer}{133}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Rates of Photooxidation in Phosphatidylcholine Liposome Experiments}{134}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Role and Activity of Heterotrophic Bacteria}{136}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}No Evidence for Direct Bacterial Metabolism of Unoxidized Lipids}{136}{subsubsection.4.5.3.1}
+\contentsline {subsubsection}{\numberline {4.5.3.2}Some Support for Bacterial Metabolism of Oxidized Degradation Products}{138}{subsubsection.4.5.3.2}
+\contentsline {subsection}{\numberline {4.5.4}Malondialehyde Assay Results Generally Confirm Other Findings}{139}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Diversity of Photodegradation Products Identified by HRAM HPLC-ESI-MS}{140}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Distributions and Acyl Saturation State of IP-DAG in Samples from Waters of the West Antarctic Peninsula}{144}{subsection.4.5.6}
+\contentsline {section}{\numberline {4.6}Discussion}{146}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Apparent Dependence of Photolability on Acyl Polyunsaturation}{146}{subsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.1.1}Other Sources of Evidence for Preferential Photooxidation of PUFA-Containing Lipids}{148}{subsubsection.4.6.1.1}
+\contentsline {subsection}{\numberline {4.6.2}Possible Mechanisms Supporting Observed Rates of Photooxidation}{150}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Biogeochemical Significance of Lipid Photooxidation in Surface Waters of the West Antarctic Peninsula}{152}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}Choice of Apparent Quantum Yield for Use in Calculations}{152}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}Photooxidation Rates in Austral Spring of Same Order of Magnitude as Bacterial Production}{153}{subsubsection.4.6.3.2}
+\contentsline {subsection}{\numberline {4.6.4}Future Implications for the West Antarctic Peninsula Marine Ecosystem}{156}{subsection.4.6.4}
+\contentsline {section}{\numberline {4.7}Conclusions and Additional Biogeochemical Implications}{157}{section.4.7}
+\contentsline {section}{\numberline {4.8}Acknowledgements}{159}{section.4.8}
+\contentsline {section}{\numberline {4.9}Availability of Data, Code, and Supplementary Methodological Details}{160}{section.4.9}
+\contentsline {chapter}{\numberline {5}Conclusions and Directions for Further Research}{177}{chapter.5}
+\contentsline {chapter}{\numberline {A}A New, Autonomous Device Captures \emph {In Situ} Variation in Oxygen Consumption and Community Metabolism at Very Fine Time Scales}{187}{appendix.A}
+\contentsline {section}{\numberline {A.1}Abstract}{188}{section.A.1}
+\contentsline {section}{\numberline {A.2}Introduction}{189}{section.A.2}
+\contentsline {section}{\numberline {A.3}Materials and Methods}{190}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Instrument Design and Operation}{190}{subsection.A.3.1}
+\contentsline {subsubsection}{\numberline {A.3.1.1}``A'' Model}{191}{subsubsection.A.3.1.1}
+\contentsline {subsubsection}{\numberline {A.3.1.2}``B'' Model}{192}{subsubsection.A.3.1.2}
+\contentsline {subsection}{\numberline {A.3.2}Instrument Deployments}{193}{subsection.A.3.2}
+\contentsline {subsection}{\numberline {A.3.3}Instrument Calibration and Choice of Deployment Depth}{194}{subsection.A.3.3}
+\contentsline {subsection}{\numberline {A.3.4}Instrument Validation by Two Independent Methods}{195}{subsection.A.3.4}
+\contentsline {subsection}{\numberline {A.3.5}Data Analysis}{196}{subsection.A.3.5}
+\contentsline {subsubsection}{\numberline {A.3.5.1}PHORCYS Rate Calculations}{196}{subsubsection.A.3.5.1}
+\contentsline {subsubsection}{\numberline {A.3.5.2}Rate Calculations from Winkler Titration Samples and Sensor Spot Incubations}{196}{subsubsection.A.3.5.2}
+\contentsline {subsubsection}{\numberline {A.3.5.3}Calculation of Uncertainties in Metabolic Rate Estimates}{197}{subsubsection.A.3.5.3}
+\contentsline {section}{\numberline {A.4}Results and Discussion}{198}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}PHORCYS Metabolic Rate Estimates}{198}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Performance of Method for Estimation of Uncertainties}{200}{subsection.A.4.2}
+\contentsline {subsection}{\numberline {A.4.3}Evaluation of Instrument Performance Using Independent Methods}{200}{subsection.A.4.3}
+\contentsline {subsection}{\numberline {A.4.4}Possible Sources of the Observed Discrepancies Between Methods}{201}{subsection.A.4.4}
+\contentsline {section}{\numberline {A.5}Conclusion}{203}{section.A.5}
+\contentsline {section}{\numberline {A.6}Acknowledgements}{203}{section.A.6}
+\contentsline {section}{\numberline {A.7}Availability of Data and Code}{204}{section.A.7}
+\contentsline {chapter}{\numberline {B}Preliminary analysis of a microbial community UV exposure experiment at Station ALOHA}{213}{appendix.B}
+\contentsline {section}{\numberline {B.1}Description}{214}{section.B.1}
+\contentsline {section}{\numberline {B.2}Brief Summary of Methods}{214}{section.B.2}
+\contentsline {section}{\numberline {B.3}Results}{215}{section.B.3}
+\contentsline {section}{\numberline {B.4}Figures}{217}{section.B.4}
+\contentsline {chapter}{\numberline {C}Supporting information for Chapter 2}{225}{appendix.C}
+\contentsline {section}{\numberline {C.1}Supplementary Figures}{226}{section.C.1}
+\contentsline {section}{\numberline {C.2}Supplementary Tables}{229}{section.C.2}
+\contentsline {chapter}{\numberline {D}Supporting information for Chapter 3}{235}{appendix.D}
+\contentsline {section}{\numberline {D.1}Supplementary Methodological Details Not Described in the Text}{236}{section.D.1}
+\contentsline {subsection}{\numberline {D.1.1}Conversion of .raw Data Files to .mzXML Format}{236}{subsection.D.1.1}
+\contentsline {subsection}{\numberline {D.1.2}Sample Injection, Chromatography and ESI Source Settings}{236}{subsection.D.1.2}
+\contentsline {subsection}{\numberline {D.1.3}Mass Spectrometer Acquisition Settings}{237}{subsection.D.1.3}
+\contentsline {subsection}{\numberline {D.1.4}Procedures Used for Weekly and Real-Time Calibration of the Exactive}{237}{subsection.D.1.4}
+\contentsline {subsection}{\numberline {D.1.5}Script for Pre-Processing Data in xcms and CAMERA}{237}{subsection.D.1.5}
+\contentsline {subsection}{\numberline {D.1.6}Determination of Retention Time Window Data}{238}{subsection.D.1.6}
+\contentsline {subsection}{\numberline {D.1.7}Analysis of Positive Ionization Mode \emph {P. tricornutum} Data Using xcms, CAMERA, and LOBSTAHS}{238}{subsection.D.1.7}
+\contentsline {subsection}{\numberline {D.1.8}Choice of Matching Tolerance}{238}{subsection.D.1.8}
+\contentsline {subsection}{\numberline {D.1.9}Statistical Analysis and Visualization of the \emph {P. tricornutum} Lipidome }{239}{subsection.D.1.9}
+\contentsline {section}{\numberline {D.2}Supplementary Figures}{241}{section.D.2}
+\contentsline {section}{\numberline {D.3}Supplementary Tables}{254}{section.D.3}
+\contentsline {chapter}{\numberline {E}Supporting information for Chapter 4}{279}{appendix.E}
+\contentsline {section}{\numberline {E.1}Supplementary Methodological Details Not Described in the Text}{280}{section.E.1}
+\contentsline {subsection}{\numberline {E.1.1}Sample Injection, Chromatography and ESI Source Settings}{280}{subsection.E.1.1}
+\contentsline {subsection}{\numberline {E.1.2}Mass Spectrometer Acquisition Settings}{280}{subsection.E.1.2}
+\contentsline {subsection}{\numberline {E.1.3}Procedures Used for Weekly and Real-Time Calibration of the Exactive}{281}{subsection.E.1.3}
+\contentsline {section}{\numberline {E.2}Supplementary Figures}{282}{section.E.2}
+\contentsline {section}{\numberline {E.3}Supplementary Tables}{289}{section.E.3}
+\contentsline {chapter}{\numberline {F}Supplementary data from a Ph.D. completed in Woods Hole}{299}{appendix.F}
+\contentsfinish 

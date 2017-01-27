@@ -1,0 +1,54 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+
+\begingroup%
+\makeatletter%
+\cleardoublepage%
+\let\newpage\relax%
+\let\clearpage\relax%
+\vspace*{\fill}%
+\vspace*{\dimexpr-50\p@-\baselineskip}% Remove the initial
+%% -default- 50pt gap (plus 1 line) 
+\chapter[Supplementary data from a Ph.D. completed in Woods Hole]{Supplementary data from a Ph.D. completed in Woods Hole}
+\label{AppF}
+\vspace*{\fill}%
+\endgroup%
+
+\clearpage
+
+\begin{normalsize}
+\begin{singlespace}
+\begin{flushleft}
+%\renewcommand*{\arraystretch}{1.3}
+\begin{longtable}{ Lp{.48\linewidth} Lp{.48\linewidth} }
+\captionsetup{font={normalsize}}
+\caption[Supplementary data from a Ph.D. completed in Woods Hole]{Supplementary data from a Ph.D. completed in Woods Hole}
+\label{table:afn1}
+\endfirsthead
+\endhead
+\toprule
+What & How many \\
+\midrule
+LOBSTAHS & 1 \\
+Lobsters & 141 \\
+Trap bycatch & dogfish (2), tog (2), blue crabs (4), toadfish (3; still owed a check from MBL), black sea bass (3), whelks (lots) \\
+Lost traps (sorry Jeffrey) & 4 \\
+Junked boat trailers & 1 \\
+Cracked engine blocks & 1\textsuperscript{a} \\
+Boats & 2 \\
+CPUE & I don't dare calculate \\
+Albies & 13 \\
+Blues & Usually when I was trying for stripers \\
+Stripers & Not telling \\
+\bottomrule
+\captionsetup{font={footnotesize}}
+\caption*{\textsuperscript{a} Maybe 2 if you count the Sea Pig (R.I.P.)
+}
+\end{longtable}
+\end{flushleft}
+\end{singlespace}
+\end{normalsize}

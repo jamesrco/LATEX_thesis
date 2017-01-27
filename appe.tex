@@ -1,0 +1,490 @@
+%% This is an example first chapter.  You should put chapter/appendix that you
+%% write into a separate file, and add a line \include{yourfilename} to
+%% main.tex, where `yourfilename.tex' is the name of the chapter/appendix file.
+%% You can process specific files by typing their names in at the 
+%% \files=
+%% prompt when you run the file main.tex through LaTeX.
+
+\begingroup%
+\makeatletter%
+\cleardoublepage%
+\let\newpage\relax%
+\let\clearpage\relax%
+\vspace*{\fill}%
+\vspace*{\dimexpr-50\p@-\baselineskip}% Remove the initial
+%% -default- 50pt gap (plus 1 line) 
+\chapter[Supporting information for Chapter 4]{{\setlength{\huge} Supporting information for}\\ \autoref{chap4}: Mechanisms and Biogeochemical Significance of Lipid Photooxidation in Coastal Surface Waters of West Antarctica}
+\label{AppE}
+\vspace*{\fill}%
+\endgroup%
+
+\clearpage
+
+\section{Supplementary Methodological Details Not Described in the Text}
+
+\subsection{Sample Injection, Chromatography and ESI Source Settings}
+
+20 $\mu$L injections of sample were made onto a C8 Xbridge HPLC column (particle size 5 $\mu$m, length 150 mm, width 2.1 mm; Waters Corp., Milford, MA, USA). Eluent A consisted of water with 1\% 1M ammonium acetate and 0.1\% acetic acid. Eluent B consisted of 70\% acetonitrile, 30\% isopropanol with 1\% 1M ammonium acetate and 0.1\% acetic acid. Gradient elution was performed with the following program (total run time 40 min) at a constant flow rate of 0.4 mL min\textsuperscript{-1}: 45\% A for 1 min to 35\% A at 4 min, then from 25\% A to 11\% A at 12 min, then to 1\% A at 15 min with an isocratic hold until 30 min, and finally back to 45\% A for 10 min column equilibration. ESI source settings were: Spray voltage, 4.5kV (+), 3.5 kV (-); capillary temperature, 200$^{\circ}$C; sheath gas and auxiliary gas, both 20 (arbitrary units); heated ESI probe temperature, 350$^{\circ}$C.
+
+\subsection{Mass Spectrometer Acquisition Settings}
+\label{ssec:Mass Spectrometer Acquisition Settings}
+
+Mass data were collected on a Thermo Q Exactive Hybrid Quadrupole-Orbitrap mass spectrometer (ThermoFisher Scientific, Waltham, MA, USA) instrument in full scan and TopN data dependent-MS\textsuperscript{2} (dd-MS\textsuperscript{2}) acquisition modes while alternating between positive and negative ionization modes. Following the full spectrum scan in each mode (scan range of 100-1500 \emph{m/z}), the five ions of highest intensity were selected using the quadrupole for MS\textsuperscript{2} fragmentation. Data were acquired in the following sequence: FT positive full lock MS, positive-mode dd-MS\textsuperscript{2}, FT negative full lock MS, and negative-mode dd-MS\textsuperscript{2}. The S-lens RF level and voltage were set to 100.00\% and 25.00 V, respectively. Mass resolution was set to the maximum possible value of 140,000 (FWHM at \emph{m/z} 200) for full scan acquisition and to 17,500 for dd-MS\textsuperscript{2} scans. The full scan mass resolution setting corresponded to an observed resolution of 75,100 at the \emph{m/z} (875.5505) of our internal standard, DNP-PE, in positive ion mode. Using these settings, we obtained between 8 and 14 MS scans across a typical peak in full scan mode. The following other settings were applied: MS\textsuperscript{2} isolation window, 4 \emph{m/z}; MS\textsuperscript{2} isolation offset, 0.00; loop count, 5; dynamic exclusion, 10.0 s; AGC target, 3,000,000/100,000 (full scan/MS\textsuperscript{2}); skimmer voltage, 15.00 V; inject flatapole DC, 6.00; MP2 and MP3 RF, 594; gate lens voltage, 5.88 V; C-trap RF, 1,010; MS\textsuperscript{2} NCE/stepped NCE, 30, 50, 80.
+
+\subsection{Procedures Used for Weekly and Real-Time Calibration of the Exactive}
+
+The mass spectrometer was calibrated as requried in both positive and negative ion modes by infusing calibration mixes available from ThermoFisher Scientific. Deliberate lock masses were also used for real-time recalibration; C\textsubscript{16:0} (\emph{m/z} 255.23295) and C\textsubscript{18:0} (\emph{m/z} 283.26425) fatty acids were used in negative ion mode, while ammonium adducts of a series of polysiloxanes (\emph{m/z} 536.16537, 610.1842, and 684.2035) were used in positive ion mode. At least one of the lock masses was found during each positive and negative full scan event.
+
+\clearpage
+
+\section{Supplementary Figures}
+
+\begin{figure}[!th]
+\centering
+\includegraphics[width=1\textwidth]{Fig_E-1.pdf}
+\captionsetup{font={footnotesize}}
+\caption[Structures of the eight species of phosphatidylcholine evaluated in photooxidation experiments]{Structures of the eight species of phosphatidylcholine (PC) evaluated in the photooxidation experiments described in the text.}
+\label{fig:aen1}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!th]
+\centering
+\includegraphics[width=.6\textwidth]{Fig_E-2.pdf}
+\captionsetup{font={footnotesize}}
+\caption[Wavelength-specific absorbance coefficients of West Antarctic Peninsula surface waters]{Wavelength-specific absorbance coefficients (${a_{SW}}(\lambda )$) of West Antarctic Peninsula surface waters from samples collected on two dates in December 2013. For each date, we report the mean values of ${a_{SW}}(\lambda )$ determined for each wavelength in a set of samples collected at 0, 5, and 10 m. The 27 December values (red trace) reflect samples collected at the three depths at both PAL-LTER time series stations (B and E; \emph{N} = 6), while the 12 December values (blue trace) are based only on samples collected at Station B (\emph{N} = 3). The shaded region surrounding each trace depicts one standard deviation. Values of ${a_{SW}}(\lambda )$ were calculated according to \autoref{eq:c4e4} in the text.}
+\label{fig:aen2}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!th]
+\centering
+\includegraphics[width=.9\textwidth]{Fig_E-3.pdf}
+\captionsetup{font={footnotesize}}
+\caption[Profiles of temperature and salinity made at PAL-LTER Station B in December 2013]{Profiles of temperature and salinity made at PAL-LTER Station B on (a) 12 December and (b) 24 December 2013. The data from which these figures were constructed were retrieved from \url{http://oceaninformatics.ucsd.edu/datazoo/data/pallter/datasets?action=summary&id=228} on 1 November 2016. The location of Station B in Arthur Harbor is shown in \autoref{fig:c4n1}.}
+\label{fig:aen3}
+\end{figure}
+
+\clearpage
+
+\begin{landscape}
+\begin{figure}[p]
+\vspace*{-1.5cm}
+\includegraphics[width=1\linewidth]{Fig_E-4.pdf}
+\end{figure}
+\clearpage
+\end{landscape}
+\begingroup
+\captionsetup{font={footnotesize}}
+\captionof{figure}[Expanded version of \autoref{fig:c4n9}]{(preceding page) Expanded version of \autoref{fig:c4n9} in the main text, showing annotated positive and negative ion mode spectra used to identify three intact oxidized products of PC 22:6, 22:6 (\emph{all-cis}-$\Delta$\textsuperscript{4},$\Delta$\textsuperscript{7},$\Delta$\textsuperscript{10},$\Delta$\textsuperscript{13},$\Delta$\textsuperscript{16},$\Delta$\textsuperscript{19}) in a lipid photooxidation experiment on 14 December 2013. The spectra presented here are from one of three replicate samples of the +UVB --het. bact. treatment at the final experimental time point shown in \autoref{fig:c4n6}. Product ion spectra (second and fourth rows) were obtained via data-dependent MS\textsuperscript{2} using a Thermo Q Exactive Hybrid Quadrupole-Orbitrap mass spectrometer; MS and HPLC conditions are described in the Supporting Information text. Panels (a)-(d) show diagnostic spectra for the intact parent PC 22:6, 22:6 molecule ({[}M+H{]}\textsuperscript{+} and {[}M-HAc-H{]}\textsuperscript{-} adducts, respectively); these were validated by comparison with an authentic standard. Panels (e)-(h), (i)-(l), and (m)-(p) show, respectively, spectra for three ox-PC 22:6. 22:6 species identified at 10.4, 11.0, and 8.5 min. Colors in column headings correspond to those used in \autoref{fig:c4n8} and \autoref{fig:c4n9} in the text. Insets show the relative intensities of ions $\geq$ 300 or 100 \emph{m/z} units (positive and negative ionization modes, respectively). Although we were unable to identify the precise structures of the three ox-PC species without further fragmentation (i.e., MS\textsuperscript{n}; see discussion in text), we offer five lines of evidence for identities of these species as +2O and +4O products of the parent molecule, with the additional conviction that the oxidation in each case oc$\mu$red at a specific position on one of the two attached acyl chains: (1) the knowledge that, by virtue of the experimental design, the observed species must be degradation products of one of the five lipids we added as liposomes, (2) agreement at $\leq$ 0.3 ppm of the exact masses of the parent ion adducts in both ionization modes with calculated theoretical masses, (3) systematic shifts in retention time consistent with the progressive addition of oxygen atoms, (4) the unique fragmentation spectra observed, each containing ions not present in those obtained for the parent molecule, and (5) the presence in all three of the negative ion mode MS\textsuperscript{2} spectra of the \emph{m/z} 327.23, 224.07, and 283.24 fragments diagnostic of the presence of intact, unoxidized DHA.}
+\label{fig:aen4}
+\endgroup
+
+\clearpage
+
+\begin{figure}[!th]
+\centering
+\includegraphics[width=.9\textwidth]{Fig_E-5.pdf}
+\captionsetup{font={footnotesize}}
+\caption[Relative molar distribution of seven classes of IP-DAG in cultures of four diatom species isolated from waters of the West Antarctic Peninsula]{Relative molar distribution of seven classes of intact polar diacylglycerol (IP-DAG) in cultures of four diatom species isolated from waters of the West Antarctic Peninsula. Cultures were grown in nutrient replete medium and biomass was harvested in exponential growth phase. Lipids were identified using the LOBSTAHS software and several additional criteria described in the main text; the data in this figure represent 316 different IP-DAG identified in the four isolates. Quantification of lipids was performed using authentic standards as described in the main text. We also identified several species of diacylglyceryl carboxyhydroxymethylcholine (DGCC) in the isolates; these were excluded from the dataset used to generate the figure because we did not have a suitable authentic standard available at the time of analysis. DGCC accounted for \textless{} 1 \% of the total raw IP-DAG peak area in \emph{A. actinochilus} and \emph{F. cylindrus}, \textless{} 3 \% in \emph{Chaetoceros sp.}, and $\sim$ 20 \% of the total IP-DAG peak area in \emph{T. antarctica}. The diatom cultures were kindly provided by C. Moreno and A. Marchetti, University of North Carolina. The full, annotated list of the lipids identified in each culture is available online at \url{https://github.com/jamesrco/LipidPhotoOxBox/blob/master/data/nice/LOBSTAHS_lipid_identities/UNC_Marchetti_diatom_cultures_IP-DAG_pmol_totals.final.csv} or upon request from the author.}
+\label{fig:aen5}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!th]
+\centering
+\includegraphics[width=.9\textwidth]{Fig_E-6.pdf}
+\captionsetup{font={footnotesize}}
+\caption[Fatty acid composition of IP-DAG in the four Antarctic diatom isolates presented in \autoref{fig:aen5}]{Fatty acid composition of (a) all identifiable IP-DAG and (b) phosphatidylcholine (PC) species in the four Antarctic diatom isolates for which distributions of IP-DAG are presented in \autoref{fig:aen5}. Because the current version of the LOBSTAHS software resolves the identities of IP-DAG~only to the level of bulk fatty acid composition (i.e., the sum of the properties of the substituents at both the \emph{sn}-1 and \emph{sn}-2 positions), we were unable to determine which fatty acids were present in each molecule without significant additional inspection of fragmentation spectra or saponification for analysis fatty acid methyl esters (FAMES). We were able to categorize the saturation state of the IP-DAG according to the simplified scheme we present here after verifying (by inspection of fragmentation spectra) that the maximum degree of unsaturation of any single fatty acid present in these species was six (present in the form of docosahexaenoic acid, or DHA).}
+\label{fig:aen6}
+\end{figure}
+
+\clearpage
+
+\section{Supplementary Tables}
+
+\clearpage
+
+\begin{landscape}
+
+\begin{footnotesize}
+\begin{singlespace}
+\begin{flushleft}
+\begin{longtable}{ Lp{.1\linewidth} Lp{.1\linewidth} Lp{.1\linewidth} Lp{.11\linewidth} Lp{.11\linewidth} Lp{.11\linewidth} Lp{.11\linewidth} Lp{.11\linewidth} }
+\captionsetup{font={normalsize}}
+\caption[Summary of Results from Liposome Photooxidation Experiments]{Summary of Results from Liposome Photooxidation Experiments}\\
+\label{table:aen1}
+\endfirsthead
+\endhead
+\toprule
+\multirow{3}{\linewidth}[0em]{Moiety Phosphatidyl-choline} & \multirow{3}{\linewidth}[0em]{No. Independent Experiments in which Evaluated} & \multirow{3}{\linewidth}[0em]{Date of Experiment (2013)} & \multicolumn{5}{ l }{Rate of Change in Concentration\textsuperscript{a} (pmol mL\textsuperscript{-1} hr\textsuperscript{-1} $\pm$ SE)} \\
+\cmidrule{4-8}
+ &  &  & \multicolumn{5}{ l }{Treatment}  \\
+\cmidrule{4-8}
+ &  &  & Control (dark) -- het. bact. & Control (dark) + het. bact & -- UVB -- het. bact.\textsuperscript{b} & + UVB -- het. bact.\textsuperscript{c} & + UVB +  het. bact.\textsuperscript{d} \\
+\midrule
+PC 16:0/16:0 & 5 & 9 Oct & ns\textsuperscript{e} & ---\textsuperscript{f} & ns & ns & --- \\
+ &  & 30 Oct & ns & --- & ns & ns & --- \\
+ &  & 20 Nov & ns & ns & ns & ns & ns \\
+ &  & 2 Dec & ns & --- & ns & ns & --- \\
+ &  & 14 Dec & ns & ns & ns & ns & ns \\
+PC 16:1/16:1 & 3 & 9 Oct & ns & --- & ns & ns & --- \\
+ &  & 30 Oct & ns & --- & ns & ns & --- \\
+ &  & 20 Nov & ns & ns & ns & ns & ns \\
+PC 18:0/18:0 & 5 & 9 Oct & ns & --- & ns & ns & --- \\
+ &  & 30 Oct & ns & --- & ns & ns & --- \\
+ &  & 20 Nov & ns & ns & ns & ns & ns \\
+ &  & 2 Dec & ns & --- & ns & ns & --- \\
+ &  & 14 Dec & ns & ns & ns & ns & ns \\
+PC 18:1/18:1 & 4 & 9 Oct & ns & --- & ns & ns & --- \\
+ &  & 30 Oct & ns & --- & ns & ns & --- \\
+ &  & 20 Nov & ns & ns & ns & ns & ns \\
+ &  & 14 Dec & ns & ns & ns & ns & ns \\
+PC 18:2/18:2 & 2 & 9 Oct & ns & --- & ns & ns & --- \\
+ &  & 20 Nov & ns & ns & ns & ns & ns \\
+PC 22:0/22:0 & 2 & 2 Dec & ns & --- & ns & ns & --- \\
+ &  & 14 Dec & ns & ns & ns & ns & ns \\
+PC 22:6/22:6 & 2 & 2 Dec & ns & --- & ns & ns & --- \\
+ &  & 14 Dec & -39 $\pm$ 23 & -27 $\pm$ 34 & \textbf{-77 $\pm$ 16} & \textbf{-98 $\pm$ 17*} & \textbf{-100 $\pm$ 17*}\\
+\bottomrule
+\captionsetup{font={footnotesize}}
+\caption*{\textsuperscript{a} Reported only where mean final concentration in at least one treatment was significantly different from mean initial concentration according to Tukey's ``Honest Significant Difference'' method with $\alpha$ = 0.05: \emph{p} $\leq$ 0.05 (\textbf{bold}), \emph{p} $\leq$ 0.01 (*); rates are reported as mean $\pm$ SE of \emph{N} $\geq$ 3 replicates.\\
+\textsuperscript{b} Borosilicate glass vessel; 0.2 $\mu$m filtered seawater\\
+\textsuperscript{c} Quartz glass vessel; 0.2 $\mu$m filtered seawater\\
+\textsuperscript{d} Quartz glass vessel; 0.7 $\mu$m filtered seawater\\
+\textsuperscript{e} ns: not significant\\
+\textsuperscript{f} Treatment combination was not evaluated in this experiment}
+\end{longtable}
+\end{flushleft}
+\end{singlespace}
+\end{footnotesize}
+
+\end{landscape}
+
+\clearpage
+
+\begin{small}
+\begin{singlespace}
+\begin{flushleft}
+\begin{longtable}{ Lp{.075\linewidth} Lp{.075\linewidth} Lp{.035\linewidth} Lp{.075\linewidth} Lp{.075\linewidth} Lp{.035\linewidth} Lp{.075\linewidth} Lp{.075\linewidth} Lp{.035\linewidth} Lp{.075\linewidth} Lp{.075\linewidth} }
+\captionsetup{font={normalsize}}
+\caption[Some Downwelling Attenuation Coefficients (${K_d}(\lambda )$) for Coastal Waters in West Antarctica]{Some Downwelling Attenuation Coefficients (${K_d}(\lambda )$) for Coastal Waters in West Antarctica}
+\label{table:aen2}
+\endfirsthead
+\toprule
+$\lambda$ & ${K_d}(\lambda )$ & & $\lambda$ & ${K_d}(\lambda )$ & & $\lambda$ & ${K_d}(\lambda )$ & & $\lambda$ & ${K_d}(\lambda )$ \\
+\midrule
+\endhead
+\toprule
+$\lambda$ (nm) & ${K_d}(\lambda )$ (m\textsuperscript{-1}) & & $\lambda$ (nm) & ${K_d}(\lambda )$ (m\textsuperscript{-1}) & & $\lambda$ (nm) & ${K_d}(\lambda )$ (m\textsuperscript{-1}) & & $\lambda$ (nm) & ${K_d}(\lambda )$ (m\textsuperscript{-1}) \\
+\midrule
+280.1 & 0.11 &  & 297.9 & 0.12 &  & 315.6 & 0.22 &  & 333.3 & 0.30 \\
+280.4 & 0.11 &  & 298.3 & 0.11 &  & 316.0 & 0.23 &  & 333.7 & 0.30 \\
+280.8 & 0.13 &  & 298.6 & 0.10 &  & 316.4 & 0.23 &  & 334.1 & 0.30 \\
+281.2 & 0.13 &  & 299.0 & 0.10 &  & 316.8 & 0.23 &  & 334.4 & 0.30 \\
+281.5 & 0.12 &  & 299.4 & 0.09 &  & 317.1 & 0.23 &  & 334.8 & 0.29 \\
+281.9 & 0.12 &  & 299.7 & 0.08 &  & 317.5 & 0.23 &  & 335.2 & 0.29 \\
+282.3 & 0.13 &  & 300.1 & 0.09 &  & 317.9 & 0.23 &  & 335.5 & 0.29 \\
+282.7 & 0.11 &  & 300.5 & 0.09 &  & 318.2 & 0.24 &  & 335.9 & 0.29 \\
+283.0 & 0.13 &  & 300.9 & 0.10 &  & 318.6 & 0.24 &  & 336.3 & 0.29 \\
+283.4 & 0.11 &  & 301.2 & 0.12 &  & 319.0 & 0.24 &  & 336.6 & 0.29 \\
+283.8 & 0.12 &  & 301.6 & 0.12 &  & 319.3 & 0.24 &  & 337.0 & 0.29 \\
+284.1 & 0.11 &  & 302.0 & 0.13 &  & 319.7 & 0.24 &  & 337.4 & 0.29 \\
+284.5 & 0.12 &  & 302.3 & 0.14 &  & 320.1 & 0.24 &  & 337.7 & 0.29 \\
+284.9 & 0.09 &  & 302.7 & 0.14 &  & 320.4 & 0.24 &  & 338.1 & 0.29 \\
+285.3 & 0.10 &  & 303.1 & 0.15 &  & 320.8 & 0.25 &  & 338.5 & 0.29 \\
+285.6 & 0.09 &  & 303.4 & 0.14 &  & 321.2 & 0.25 &  & 338.8 & 0.29 \\
+286.0 & 0.09 &  & 303.8 & 0.15 &  & 321.6 & 0.25 &  & 339.2 & 0.29 \\
+286.4 & 0.09 &  & 304.2 & 0.16 &  & 321.9 & 0.25 &  & 339.6 & 0.30 \\
+286.8 & 0.10 &  & 304.6 & 0.14 &  & 322.3 & 0.25 &  & 340.0 & 0.30 \\
+287.1 & 0.09 &  & 304.9 & 0.14 &  & 322.7 & 0.25 &  & 340.3 & 0.30 \\
+287.5 & 0.10 &  & 305.3 & 0.14 &  & 323.0 & 0.25 &  & 340.7 & 0.31 \\
+287.9 & 0.11 &  & 305.7 & 0.15 &  & 323.4 & 0.26 &  & 341.1 & 0.30 \\
+288.2 & 0.13 &  & 306.0 & 0.15 &  & 323.8 & 0.26 &  & 341.4 & 0.30 \\
+288.6 & 0.12 &  & 306.4 & 0.15 &  & 324.1 & 0.27 &  & 341.8 & 0.30 \\
+289.0 & 0.14 &  & 306.8 & 0.15 &  & 324.5 & 0.27 &  & 342.2 & 0.30 \\
+289.4 & 0.12 &  & 307.1 & 0.15 &  & 324.9 & 0.27 &  & 342.5 & 0.30 \\
+289.7 & 0.14 &  & 307.5 & 0.16 &  & 325.2 & 0.28 &  & 342.9 & 0.30 \\
+290.1 & 0.17 &  & 307.9 & 0.15 &  & 325.6 & 0.28 &  & 343.3 & 0.30 \\
+290.5 & 0.17 &  & 308.3 & 0.16 &  & 326.0 & 0.28 &  & 343.6 & 0.30 \\
+290.8 & 0.15 &  & 308.6 & 0.16 &  & 326.3 & 0.29 &  & 344.0 & 0.29 \\
+291.2 & 0.18 &  & 309.0 & 0.17 &  & 326.7 & 0.29 &  & 344.4 & 0.29 \\
+291.6 & 0.16 &  & 309.4 & 0.17 &  & 327.1 & 0.29 &  & 344.7 & 0.29 \\
+292.0 & 0.15 &  & 309.7 & 0.18 &  & 327.4 & 0.29 &  & 345.1 & 0.29 \\
+292.3 & 0.14 &  & 310.1 & 0.19 &  & 327.8 & 0.29 &  & 345.5 & 0.29 \\
+292.7 & 0.13 &  & 310.5 & 0.19 &  & 328.2 & 0.29 &  & 345.8 & 0.30 \\
+293.1 & 0.14 &  & 310.8 & 0.20 &  & 328.6 & 0.29 &  & 346.2 & 0.30 \\
+293.4 & 0.14 &  & 311.2 & 0.21 &  & 328.9 & 0.29 &  & 346.6 & 0.30 \\
+293.8 & 0.13 &  & 311.6 & 0.21 &  & 329.3 & 0.29 &  & 346.9 & 0.30 \\
+294.2 & 0.13 &  & 312.0 & 0.21 &  & 329.7 & 0.30 &  & 347.3 & 0.30 \\
+294.6 & 0.13 &  & 312.3 & 0.21 &  & 330.0 & 0.30 &  & 347.7 & 0.30 \\
+294.9 & 0.13 &  & 312.7 & 0.21 &  & 330.4 & 0.29 &  & 348.0 & 0.30 \\
+295.3 & 0.14 &  & 313.1 & 0.22 &  & 330.8 & 0.29 &  & 348.4 & 0.30 \\
+295.7 & 0.15 &  & 313.4 & 0.22 &  & 331.1 & 0.29 &  & 348.8 & 0.30 \\
+296.0 & 0.15 &  & 313.8 & 0.22 &  & 331.5 & 0.29 &  & 349.1 & 0.30 \\
+296.4 & 0.16 &  & 314.2 & 0.22 &  & 331.9 & 0.29 &  & 349.5 & 0.30 \\
+296.8 & 0.15 &  & 314.5 & 0.22 &  & 332.2 & 0.29 &  & 349.9 & 0.30 \\
+297.1 & 0.12 &  & 314.9 & 0.22 &  & 332.6 & 0.29 &  & 350.2 & 0.30 \\
+297.5 & 0.12 &  & 315.3 & 0.22 &  & 333.0 & 0.30 &  & 350.6 & 0.30 \\
+351.0 & 0.30 &  & 369.9 & 0.33 &  & 388.8 & 0.32 &  & 407.7 & 0.37 \\
+351.3 & 0.30 &  & 370.3 & 0.32 &  & 389.2 & 0.32 &  & 408.0 & 0.37 \\
+351.7 & 0.30 &  & 370.7 & 0.32 &  & 389.6 & 0.32 &  & 408.4 & 0.38 \\
+352.0 & 0.30 &  & 371.0 & 0.32 &  & 389.9 & 0.32 &  & 408.7 & 0.38 \\
+352.4 & 0.30 &  & 371.4 & 0.32 &  & 390.3 & 0.32 &  & 409.1 & 0.38 \\
+352.8 & 0.31 &  & 371.8 & 0.31 &  & 390.7 & 0.32 &  & 409.5 & 0.38 \\
+353.1 & 0.30 &  & 372.1 & 0.31 &  & 391.0 & 0.31 &  & 409.8 & 0.38 \\
+353.5 & 0.30 &  & 372.5 & 0.31 &  & 391.4 & 0.31 &  & 410.2 & 0.38 \\
+353.9 & 0.31 &  & 372.9 & 0.31 &  & 391.7 & 0.30 &  & 410.5 & 0.38 \\
+354.2 & 0.31 &  & 373.2 & 0.31 &  & 392.1 & 0.30 &  & 410.9 & 0.38 \\
+354.6 & 0.31 &  & 373.6 & 0.31 &  & 392.5 & 0.30 &  & 411.3 & 0.38 \\
+355.0 & 0.31 &  & 374.0 & 0.31 &  & 392.8 & 0.30 &  & 411.6 & 0.38 \\
+355.3 & 0.30 &  & 374.3 & 0.31 &  & 393.2 & 0.30 &  & 412.0 & 0.38 \\
+355.7 & 0.30 &  & 374.7 & 0.31 &  & 393.6 & 0.30 &  & 412.3 & 0.38 \\
+356.1 & 0.30 &  & 375.0 & 0.32 &  & 393.9 & 0.30 &  & 412.7 & 0.38 \\
+356.4 & 0.29 &  & 375.4 & 0.32 &  & 394.3 & 0.30 &  & 413.1 & 0.38 \\
+356.8 & 0.29 &  & 375.8 & 0.33 &  & 394.6 & 0.30 &  & 413.4 & 0.39 \\
+357.2 & 0.30 &  & 376.1 & 0.33 &  & 395.0 & 0.31 &  & 413.8 & 0.39 \\
+357.5 & 0.30 &  & 376.5 & 0.33 &  & 395.4 & 0.31 &  & 414.1 & 0.39 \\
+357.9 & 0.29 &  & 376.9 & 0.33 &  & 395.7 & 0.31 &  & 414.5 & 0.39 \\
+358.3 & 0.30 &  & 377.2 & 0.33 &  & 396.1 & 0.31 &  & 414.9 & 0.39 \\
+358.6 & 0.30 &  & 377.6 & 0.33 &  & 396.5 & 0.32 &  & 415.2 & 0.39 \\
+359.0 & 0.30 &  & 378.0 & 0.34 &  & 396.8 & 0.32 &  & 415.6 & 0.39 \\
+359.4 & 0.30 &  & 378.3 & 0.33 &  & 397.2 & 0.33 &  & 415.9 & 0.39 \\
+359.7 & 0.30 &  & 378.7 & 0.34 &  & 397.5 & 0.33 &  & 416.3 & 0.39 \\
+360.1 & 0.30 &  & 379.0 & 0.34 &  & 397.9 & 0.34 &  & 416.7 & 0.38 \\
+360.5 & 0.30 &  & 379.4 & 0.33 &  & 398.3 & 0.34 &  & 417.0 & 0.38 \\
+360.8 & 0.31 &  & 379.8 & 0.33 &  & 398.6 & 0.35 &  & 417.4 & 0.38 \\
+361.2 & 0.30 &  & 380.1 & 0.32 &  & 399.0 & 0.36 &  & 417.7 & 0.38 \\
+361.6 & 0.31 &  & 380.5 & 0.32 &  & 399.3 & 0.36 &  & 418.1 & 0.38 \\
+361.9 & 0.31 &  & 380.9 & 0.31 &  & 399.7 & 0.37 &  & 418.5 & 0.38 \\
+362.3 & 0.31 &  & 381.2 & 0.31 &  & 400.1 & 0.37 &  & 418.8 & 0.38 \\
+362.6 & 0.31 &  & 381.6 & 0.31 &  & 400.4 & 0.37 &  & 419.2 & 0.38 \\
+363.0 & 0.31 &  & 382.0 & 0.30 &  & 400.8 & 0.37 &  & 419.5 & 0.38 \\
+363.4 & 0.31 &  & 382.3 & 0.30 &  & 401.2 & 0.37 &  & 419.9 & 0.38 \\
+363.7 & 0.32 &  & 382.7 & 0.30 &  & 401.5 & 0.37 &  & 420.3 & 0.38 \\
+364.1 & 0.32 &  & 383.0 & 0.30 &  & 401.9 & 0.38 &  & 420.6 & 0.38 \\
+364.5 & 0.32 &  & 383.4 & 0.30 &  & 402.2 & 0.38 &  & 421.0 & 0.38 \\
+364.8 & 0.32 &  & 383.8 & 0.30 &  & 402.6 & 0.38 &  & 421.3 & 0.38 \\
+365.2 & 0.32 &  & 384.1 & 0.30 &  & 403.0 & 0.38 &  & 421.7 & 0.38 \\
+365.6 & 0.33 &  & 384.5 & 0.30 &  & 403.3 & 0.38 &  & 422.1 & 0.38 \\
+365.9 & 0.33 &  & 384.9 & 0.30 &  & 403.7 & 0.37 &  & 422.4 & 0.38 \\
+366.3 & 0.33 &  & 385.2 & 0.30 &  & 404.0 & 0.37 &  & 422.8 & 0.38 \\
+366.7 & 0.33 &  & 385.6 & 0.30 &  & 404.4 & 0.37 &  & 423.1 & 0.38 \\
+367.0 & 0.33 &  & 385.9 & 0.30 &  & 404.8 & 0.37 &  & 423.5 & 0.38 \\
+367.4 & 0.33 &  & 386.3 & 0.30 &  & 405.1 & 0.37 &  & 423.9 & 0.38 \\
+367.8 & 0.33 &  & 386.7 & 0.30 &  & 405.5 & 0.37 &  & 424.2 & 0.38 \\
+368.1 & 0.33 &  & 387.0 & 0.30 &  & 405.8 & 0.37 &  & 424.6 & 0.38 \\
+368.5 & 0.33 &  & 387.4 & 0.31 &  & 406.2 & 0.37 &  & 424.9 & 0.38 \\
+368.9 & 0.33 &  & 387.8 & 0.31 &  & 406.6 & 0.37 &  & 425.3 & 0.38 \\
+369.2 & 0.32 &  & 388.1 & 0.31 &  & 406.9 & 0.37 &  & 425.6 & 0.38 \\
+369.6 & 0.32 &  & 388.5 & 0.32 &  & 407.3 & 0.37 &  & 426.0 & 0.38 \\
+426.4 & 0.38 &  & 445.0 & 0.41 &  & 463.5 & 0.42 &  & 481.9 & 0.42 \\
+426.7 & 0.38 &  & 445.3 & 0.41 &  & 463.8 & 0.42 &  & 482.2 & 0.42 \\
+427.1 & 0.38 &  & 445.7 & 0.41 &  & 464.2 & 0.42 &  & 482.6 & 0.42 \\
+427.4 & 0.38 &  & 446.0 & 0.41 &  & 464.5 & 0.41 &  & 482.9 & 0.42 \\
+427.8 & 0.37 &  & 446.4 & 0.41 &  & 464.9 & 0.41 &  & 483.3 & 0.41 \\
+428.2 & 0.37 &  & 446.8 & 0.41 &  & 465.3 & 0.41 &  & 483.7 & 0.41 \\
+428.5 & 0.37 &  & 447.1 & 0.41 &  & 465.6 & 0.41 &  & 484.0 & 0.41 \\
+428.9 & 0.37 &  & 447.5 & 0.41 &  & 466.0 & 0.41 &  & 484.4 & 0.41 \\
+429.2 & 0.36 &  & 447.8 & 0.41 &  & 466.3 & 0.41 &  & 484.7 & 0.41 \\
+429.6 & 0.36 &  & 448.2 & 0.41 &  & 466.7 & 0.41 &  & 485.1 & 0.40 \\
+430.0 & 0.36 &  & 448.5 & 0.41 &  & 467.0 & 0.41 &  & 485.4 & 0.40 \\
+430.3 & 0.37 &  & 448.9 & 0.41 &  & 467.4 & 0.41 &  & 485.8 & 0.40 \\
+430.7 & 0.37 &  & 449.3 & 0.41 &  & 467.7 & 0.41 &  & 486.1 & 0.40 \\
+431.0 & 0.37 &  & 449.6 & 0.41 &  & 468.1 & 0.41 &  & 486.5 & 0.40 \\
+431.4 & 0.37 &  & 450.0 & 0.41 &  & 468.5 & 0.41 &  & 486.8 & 0.40 \\
+431.7 & 0.37 &  & 450.3 & 0.41 &  & 468.8 & 0.41 &  & 487.2 & 0.40 \\
+432.1 & 0.37 &  & 450.7 & 0.41 &  & 469.2 & 0.41 &  & 487.5 & 0.40 \\
+432.5 & 0.38 &  & 451.0 & 0.41 &  & 469.5 & 0.41 &  & 487.9 & 0.40 \\
+432.8 & 0.38 &  & 451.4 & 0.41 &  & 469.9 & 0.41 &  & 488.2 & 0.40 \\
+433.2 & 0.38 &  & 451.8 & 0.41 &  & 470.2 & 0.41 &  & 488.6 & 0.41 \\
+433.5 & 0.38 &  & 452.1 & 0.41 &  & 470.6 & 0.41 &  & 488.9 & 0.41 \\
+433.9 & 0.39 &  & 452.5 & 0.41 &  & 470.9 & 0.41 &  & 489.3 & 0.41 \\
+434.3 & 0.39 &  & 452.8 & 0.41 &  & 471.3 & 0.41 &  & 489.6 & 0.41 \\
+434.6 & 0.39 &  & 453.2 & 0.41 &  & 471.6 & 0.41 &  & 490.0 & 0.41 \\
+435.0 & 0.39 &  & 453.5 & 0.41 &  & 472.0 & 0.41 &  & 490.3 & 0.41 \\
+435.3 & 0.39 &  & 453.9 & 0.41 &  & 472.3 & 0.41 &  & 490.7 & 0.41 \\
+435.7 & 0.39 &  & 454.2 & 0.41 &  & 472.7 & 0.41 &  & 491.1 & 0.41 \\
+436.0 & 0.39 &  & 454.6 & 0.41 &  & 473.1 & 0.41 &  & 491.4 & 0.41 \\
+436.4 & 0.39 &  & 455.0 & 0.41 &  & 473.4 & 0.41 &  & 491.8 & 0.41 \\
+436.8 & 0.39 &  & 455.3 & 0.41 &  & 473.8 & 0.41 &  & 492.1 & 0.41 \\
+437.1 & 0.39 &  & 455.7 & 0.41 &  & 474.1 & 0.41 &  & 492.5 & 0.41 \\
+437.5 & 0.39 &  & 456.0 & 0.41 &  & 474.5 & 0.41 &  & 492.8 & 0.41 \\
+437.8 & 0.39 &  & 456.4 & 0.41 &  & 474.8 & 0.41 &  & 493.2 & 0.41 \\
+438.2 & 0.39 &  & 456.7 & 0.41 &  & 475.2 & 0.41 &  & 493.5 & 0.41 \\
+438.5 & 0.39 &  & 457.1 & 0.41 &  & 475.5 & 0.41 &  & 493.9 & 0.41 \\
+438.9 & 0.39 &  & 457.4 & 0.41 &  & 475.9 & 0.41 &  & 494.2 & 0.41 \\
+439.3 & 0.39 &  & 457.8 & 0.41 &  & 476.2 & 0.41 &  & 494.6 & 0.41 \\
+439.6 & 0.39 &  & 458.2 & 0.41 &  & 476.6 & 0.41 &  & 494.9 & 0.41 \\
+440.0 & 0.40 &  & 458.5 & 0.41 &  & 476.9 & 0.42 &  & 495.3 & 0.41 \\
+440.3 & 0.40 &  & 458.9 & 0.41 &  & 477.3 & 0.42 &  & 495.6 & 0.41 \\
+440.7 & 0.40 &  & 459.2 & 0.42 &  & 477.7 & 0.42 &  & 496.0 & 0.41 \\
+441.0 & 0.40 &  & 459.6 & 0.42 &  & 478.0 & 0.42 &  & 496.3 & 0.41 \\
+441.4 & 0.40 &  & 459.9 & 0.42 &  & 478.4 & 0.42 &  & 496.7 & 0.41 \\
+441.8 & 0.40 &  & 460.3 & 0.42 &  & 478.7 & 0.42 &  & 497.0 & 0.41 \\
+442.1 & 0.40 &  & 460.6 & 0.42 &  & 479.1 & 0.42 &  & 497.4 & 0.41 \\
+442.5 & 0.40 &  & 461.0 & 0.42 &  & 479.4 & 0.42 &  & 497.7 & 0.41 \\
+442.8 & 0.40 &  & 461.4 & 0.42 &  & 479.8 & 0.42 &  & 498.1 & 0.41 \\
+443.2 & 0.40 &  & 461.7 & 0.42 &  & 480.1 & 0.42 &  & 498.4 & 0.41 \\
+443.5 & 0.40 &  & 462.1 & 0.42 &  & 480.5 & 0.42 &  & 498.8 & 0.40 \\
+443.9 & 0.40 &  & 462.4 & 0.42 &  & 480.8 & 0.42 &  & 499.1 & 0.40 \\
+444.3 & 0.40 &  & 462.8 & 0.42 &  & 481.2 & 0.42 &  & 499.5 & 0.40 \\
+444.6 & 0.41 &  & 463.1 & 0.42 &  & 481.5 & 0.42 &  & 499.8 & 0.40 \\
+500.2 & 0.40 &  & 518.4 & 0.39 &  & 536.5 & 0.40 &  & 554.4 & 0.40 \\
+500.5 & 0.40 &  & 518.7 & 0.39 &  & 536.8 & 0.40 &  & 554.8 & 0.40 \\
+500.9 & 0.40 &  & 519.1 & 0.39 &  & 537.2 & 0.40 &  & 555.1 & 0.39 \\
+501.2 & 0.40 &  & 519.4 & 0.39 &  & 537.5 & 0.40 &  & 555.5 & 0.39 \\
+501.6 & 0.40 &  & 519.8 & 0.39 &  & 537.8 & 0.40 &  & 555.8 & 0.39 \\
+501.9 & 0.40 &  & 520.1 & 0.39 &  & 538.2 & 0.40 &  & 556.1 & 0.39 \\
+502.3 & 0.40 &  & 520.5 & 0.40 &  & 538.5 & 0.40 &  & 556.5 & 0.39 \\
+502.6 & 0.40 &  & 520.8 & 0.40 &  & 538.9 & 0.40 &  & 556.8 & 0.39 \\
+503.0 & 0.40 &  & 521.2 & 0.40 &  & 539.2 & 0.40 &  & 557.2 & 0.39 \\
+503.3 & 0.40 &  & 521.5 & 0.40 &  & 539.6 & 0.40 &  & 557.5 & 0.39 \\
+503.7 & 0.40 &  & 521.9 & 0.40 &  & 539.9 & 0.40 &  & 557.9 & 0.39 \\
+504.0 & 0.40 &  & 522.2 & 0.40 &  & 540.3 & 0.40 &  & 558.2 & 0.39 \\
+504.4 & 0.40 &  & 522.6 & 0.40 &  & 540.6 & 0.39 &  & 558.6 & 0.39 \\
+504.7 & 0.40 &  & 522.9 & 0.40 &  & 541.0 & 0.39 &  & 558.9 & 0.39 \\
+505.1 & 0.40 &  & 523.3 & 0.40 &  & 541.3 & 0.39 &  & 559.2 & 0.39 \\
+505.4 & 0.40 &  & 523.6 & 0.40 &  & 541.7 & 0.39 &  & 559.6 & 0.39 \\
+505.8 & 0.40 &  & 524.0 & 0.40 &  & 542.0 & 0.39 &  & 559.9 & 0.39 \\
+506.1 & 0.40 &  & 524.3 & 0.40 &  & 542.3 & 0.39 &  & 560.3 & 0.39 \\
+506.5 & 0.40 &  & 524.6 & 0.40 &  & 542.7 & 0.39 &  & 560.6 & 0.39 \\
+506.8 & 0.40 &  & 525.0 & 0.40 &  & 543.0 & 0.40 &  & 561.0 & 0.39 \\
+507.2 & 0.40 &  & 525.3 & 0.40 &  & 543.4 & 0.40 &  & 561.3 & 0.39 \\
+507.5 & 0.40 &  & 525.7 & 0.40 &  & 543.7 & 0.40 &  & 561.6 & 0.39 \\
+507.9 & 0.40 &  & 526.0 & 0.40 &  & 544.1 & 0.40 &  & 562.0 & 0.39 \\
+508.2 & 0.40 &  & 526.4 & 0.40 &  & 544.4 & 0.40 &  & 562.3 & 0.39 \\
+508.6 & 0.40 &  & 526.7 & 0.40 &  & 544.8 & 0.40 &  & 562.7 & 0.39 \\
+508.9 & 0.40 &  & 527.1 & 0.40 &  & 545.1 & 0.40 &  & 563.0 & 0.39 \\
+509.3 & 0.40 &  & 527.4 & 0.40 &  & 545.5 & 0.40 &  & 563.4 & 0.39 \\
+509.6 & 0.40 &  & 527.8 & 0.40 &  & 545.8 & 0.40 &  & 563.7 & 0.39 \\
+510.0 & 0.40 &  & 528.1 & 0.40 &  & 546.1 & 0.40 &  & 564.0 & 0.39 \\
+510.3 & 0.40 &  & 528.5 & 0.40 &  & 546.5 & 0.40 &  & 564.4 & 0.39 \\
+510.7 & 0.40 &  & 528.8 & 0.40 &  & 546.8 & 0.40 &  & 564.7 & 0.39 \\
+511.0 & 0.40 &  & 529.2 & 0.40 &  & 547.2 & 0.40 &  & 565.1 & 0.39 \\
+511.4 & 0.40 &  & 529.5 & 0.40 &  & 547.5 & 0.40 &  & 565.4 & 0.39 \\
+511.7 & 0.40 &  & 529.9 & 0.40 &  & 547.9 & 0.40 &  & 565.8 & 0.39 \\
+512.1 & 0.40 &  & 530.2 & 0.40 &  & 548.2 & 0.40 &  & 566.1 & 0.39 \\
+512.4 & 0.40 &  & 530.6 & 0.40 &  & 548.6 & 0.40 &  & 566.4 & 0.39 \\
+512.8 & 0.40 &  & 530.9 & 0.40 &  & 548.9 & 0.40 &  & 566.8 & 0.39 \\
+513.1 & 0.40 &  & 531.3 & 0.40 &  & 549.3 & 0.40 &  & 567.1 & 0.39 \\
+513.5 & 0.40 &  & 531.6 & 0.40 &  & 549.6 & 0.40 &  & 567.5 & 0.39 \\
+513.8 & 0.40 &  & 531.9 & 0.40 &  & 549.9 & 0.40 &  & 567.8 & 0.39 \\
+514.2 & 0.40 &  & 532.3 & 0.40 &  & 550.3 & 0.40 &  & 568.2 & 0.39 \\
+514.5 & 0.40 &  & 532.6 & 0.40 &  & 550.6 & 0.40 &  & 568.5 & 0.39 \\
+514.9 & 0.40 &  & 533.0 & 0.40 &  & 551.0 & 0.40 &  & 568.8 & 0.39 \\
+515.2 & 0.39 &  & 533.3 & 0.40 &  & 551.3 & 0.40 &  & 569.2 & 0.39 \\
+515.6 & 0.39 &  & 533.7 & 0.40 &  & 551.7 & 0.40 &  & 569.5 & 0.39 \\
+515.9 & 0.39 &  & 534.0 & 0.40 &  & 552.0 & 0.40 &  & 569.9 & 0.39 \\
+516.3 & 0.39 &  & 534.4 & 0.40 &  & 552.4 & 0.40 &  & 570.2 & 0.39 \\
+516.6 & 0.39 &  & 534.7 & 0.40 &  & 552.7 & 0.40 &  & 570.6 & 0.39 \\
+517.0 & 0.39 &  & 535.1 & 0.40 &  & 553.0 & 0.40 &  & 570.9 & 0.39 \\
+517.3 & 0.39 &  & 535.4 & 0.40 &  & 553.4 & 0.40 &  & 571.2 & 0.39 \\
+517.7 & 0.39 &  & 535.8 & 0.40 &  & 553.7 & 0.40 &  & 571.6 & 0.39 \\
+518.0 & 0.39 &  & 536.1 & 0.40 &  & 554.1 & 0.40 &  & 571.9 & 0.39 \\
+572.3 & 0.39 &  & 590.0 & 0.38 &  & 607.6 & 0.39 &  & 625.1 & 0.38 \\
+572.6 & 0.39 &  & 590.3 & 0.38 &  & 608.0 & 0.38 &  & 625.4 & 0.38 \\
+573.0 & 0.39 &  & 590.7 & 0.38 &  & 608.3 & 0.38 &  & 625.8 & 0.38 \\
+573.3 & 0.39 &  & 591.0 & 0.38 &  & 608.6 & 0.38 &  & 626.1 & 0.38 \\
+573.6 & 0.39 &  & 591.4 & 0.38 &  & 609.0 & 0.38 &  & 626.4 & 0.38 \\
+574.0 & 0.39 &  & 591.7 & 0.38 &  & 609.3 & 0.38 &  & 626.8 & 0.38 \\
+574.3 & 0.39 &  & 592.0 & 0.38 &  & 609.6 & 0.38 &  & 627.1 & 0.38 \\
+574.7 & 0.39 &  & 592.4 & 0.38 &  & 610.0 & 0.38 &  & 627.4 & 0.38 \\
+575.0 & 0.39 &  & 592.7 & 0.38 &  & 610.3 & 0.38 &  & 627.8 & 0.38 \\
+575.3 & 0.39 &  & 593.1 & 0.38 &  & 610.6 & 0.38 &  & 628.1 & 0.38 \\
+575.7 & 0.39 &  & 593.4 & 0.38 &  & 611.0 & 0.38 &  & 628.4 & 0.38 \\
+576.0 & 0.39 &  & 593.7 & 0.38 &  & 611.3 & 0.38 &  & 628.8 & 0.37 \\
+576.4 & 0.39 &  & 594.1 & 0.38 &  & 611.7 & 0.38 &  & 629.1 & 0.37 \\
+576.7 & 0.39 &  & 594.4 & 0.38 &  & 612.0 & 0.38 &  & 629.5 & 0.37 \\
+577.1 & 0.39 &  & 594.8 & 0.38 &  & 612.3 & 0.38 &  & 629.8 & 0.38 \\
+577.4 & 0.39 &  & 595.1 & 0.38 &  & 612.7 & 0.38 &  & 630.1 & 0.38 \\
+577.7 & 0.39 &  & 595.4 & 0.38 &  & 613.0 & 0.38 &  & 630.5 & 0.38 \\
+578.1 & 0.39 &  & 595.8 & 0.38 &  & 613.3 & 0.38 &  & 630.8 & 0.38 \\
+578.4 & 0.39 &  & 596.1 & 0.38 &  & 613.7 & 0.38 &  & 631.1 & 0.38 \\
+578.8 & 0.39 &  & 596.5 & 0.38 &  & 614.0 & 0.38 &  & 631.5 & 0.38 \\
+579.1 & 0.39 &  & 596.8 & 0.38 &  & 614.4 & 0.38 &  & 631.8 & 0.38 \\
+579.4 & 0.39 &  & 597.1 & 0.38 &  & 614.7 & 0.38 &  & 632.1 & 0.38 \\
+579.8 & 0.39 &  & 597.5 & 0.38 &  & 615.0 & 0.38 &  & 632.5 & 0.38 \\
+580.1 & 0.39 &  & 597.8 & 0.38 &  & 615.4 & 0.38 &  & 632.8 & 0.38 \\
+580.5 & 0.39 &  & 598.1 & 0.38 &  & 615.7 & 0.38 &  & 633.1 & 0.38 \\
+580.8 & 0.39 &  & 598.5 & 0.38 &  & 616.0 & 0.38 &  & 633.5 & 0.38 \\
+581.2 & 0.39 &  & 598.8 & 0.38 &  & 616.4 & 0.38 &  & 633.8 & 0.38 \\
+581.5 & 0.39 &  & 599.2 & 0.38 &  & 616.7 & 0.38 &  & 634.1 & 0.38 \\
+581.8 & 0.39 &  & 599.5 & 0.38 &  & 617.0 & 0.38 &  & 634.5 & 0.38 \\
+582.2 & 0.39 &  & 599.8 & 0.38 &  & 617.4 & 0.38 &  & 634.8 & 0.38 \\
+582.5 & 0.39 &  & 600.2 & 0.38 &  & 617.7 & 0.38 &  & 635.1 & 0.38 \\
+582.9 & 0.39 &  & 600.5 & 0.38 &  & 618.1 & 0.38 &  & 635.5 & 0.38 \\
+583.2 & 0.39 &  & 600.9 & 0.38 &  & 618.4 & 0.38 &  & 635.8 & 0.38 \\
+583.5 & 0.39 &  & 601.2 & 0.38 &  & 618.7 & 0.38 &  & 636.1 & 0.38 \\
+583.9 & 0.39 &  & 601.5 & 0.38 &  & 619.1 & 0.38 &  & 636.5 & 0.38 \\
+584.2 & 0.39 &  & 601.9 & 0.38 &  & 619.4 & 0.38 &  & 636.8 & 0.38 \\
+584.6 & 0.39 &  & 602.2 & 0.38 &  & 619.7 & 0.38 &  & 637.1 & 0.38 \\
+584.9 & 0.39 &  & 602.5 & 0.38 &  & 620.1 & 0.38 &  & 637.5 & 0.38 \\
+585.2 & 0.39 &  & 602.9 & 0.38 &  & 620.4 & 0.38 &  & 637.8 & 0.38 \\
+585.6 & 0.39 &  & 603.2 & 0.38 &  & 620.7 & 0.38 &  & 638.1 & 0.38 \\
+585.9 & 0.39 &  & 603.6 & 0.38 &  & 621.1 & 0.38 &  & 638.5 & 0.38 \\
+586.3 & 0.39 &  & 603.9 & 0.38 &  & 621.4 & 0.38 &  & 638.8 & 0.38 \\
+586.6 & 0.39 &  & 604.2 & 0.38 &  & 621.7 & 0.38 &  & 639.1 & 0.38 \\
+586.9 & 0.39 &  & 604.6 & 0.38 &  & 622.1 & 0.38 &  & 639.5 & 0.38 \\
+587.3 & 0.39 &  & 604.9 & 0.38 &  & 622.4 & 0.38 &  & 639.8 & 0.38 \\
+587.6 & 0.38 &  & 605.2 & 0.38 &  & 622.8 & 0.38 &  & 640.1 & 0.38 \\
+588.0 & 0.38 &  & 605.6 & 0.38 &  & 623.1 & 0.38 &  & 640.5 & 0.38 \\
+588.3 & 0.38 &  & 605.9 & 0.38 &  & 623.4 & 0.38 &  & 640.8 & 0.38 \\
+588.6 & 0.38 &  & 606.3 & 0.38 &  & 623.8 & 0.38 &  & 641.1 & 0.38 \\
+589.0 & 0.38 &  & 606.6 & 0.39 &  & 624.1 & 0.38 &  & 641.5 & 0.38 \\
+589.3 & 0.38 &  & 606.9 & 0.39 &  & 624.4 & 0.38 &  & 641.8 & 0.38 \\
+589.7 & 0.38 &  & 607.3 & 0.39 &  & 624.8 & 0.38 &  & 642.1 & 0.38 \\
+642.5 & 0.38 &  & 657.1 & 0.37 &  & 671.6 & 0.38 &  & 686.0 & 0.37 \\
+642.8 & 0.38 &  & 657.4 & 0.37 &  & 671.9 & 0.38 &  & 686.3 & 0.37 \\
+643.1 & 0.38 &  & 657.7 & 0.37 &  & 672.2 & 0.38 &  & 686.6 & 0.36 \\
+643.5 & 0.38 &  & 658.0 & 0.37 &  & 672.5 & 0.38 &  & 686.9 & 0.36 \\
+643.8 & 0.38 &  & 658.4 & 0.37 &  & 672.9 & 0.38 &  & 687.3 & 0.36 \\
+644.1 & 0.38 &  & 658.7 & 0.37 &  & 673.2 & 0.38 &  & 687.6 & 0.36 \\
+644.5 & 0.38 &  & 659.0 & 0.37 &  & 673.5 & 0.38 &  & 687.9 & 0.36 \\
+644.8 & 0.38 &  & 659.4 & 0.38 &  & 673.8 & 0.38 &  & 688.2 & 0.35 \\
+645.1 & 0.38 &  & 659.7 & 0.38 &  & 674.2 & 0.38 &  & 688.6 & 0.35 \\
+645.5 & 0.38 &  & 660.0 & 0.38 &  & 674.5 & 0.38 &  & 688.9 & 0.36 \\
+645.8 & 0.38 &  & 660.4 & 0.38 &  & 674.8 & 0.38 &  & 689.2 & 0.36 \\
+646.1 & 0.38 &  & 660.7 & 0.38 &  & 675.2 & 0.38 &  & 689.5 & 0.36 \\
+646.5 & 0.38 &  & 661.0 & 0.38 &  & 675.5 & 0.38 &  & 689.9 & 0.36 \\
+646.8 & 0.38 &  & 661.3 & 0.38 &  & 675.8 & 0.38 &  & 690.2 & 0.36 \\
+647.1 & 0.38 &  & 661.7 & 0.38 &  & 676.1 & 0.38 &  & 690.5 & 0.36 \\
+647.4 & 0.38 &  & 662.0 & 0.38 &  & 676.5 & 0.38 &  & 690.8 & 0.36 \\
+647.8 & 0.38 &  & 662.3 & 0.38 &  & 676.8 & 0.38 &  & 691.2 & 0.36 \\
+648.1 & 0.38 &  & 662.7 & 0.38 &  & 677.1 & 0.38 &  & 691.5 & 0.36 \\
+648.4 & 0.38 &  & 663.0 & 0.38 &  & 677.5 & 0.38 &  & 691.8 & 0.36 \\
+648.8 & 0.38 &  & 663.3 & 0.38 &  & 677.8 & 0.38 &  & 692.1 & 0.37 \\
+649.1 & 0.38 &  & 663.7 & 0.38 &  & 678.1 & 0.38 &  & 692.5 & 0.37 \\
+649.4 & 0.38 &  & 664.0 & 0.38 &  & 678.4 & 0.38 &  & 692.8 & 0.37 \\
+649.8 & 0.38 &  & 664.3 & 0.38 &  & 678.8 & 0.38 &  & 693.1 & 0.37 \\
+650.1 & 0.38 &  & 664.6 & 0.38 &  & 679.1 & 0.38 &  & 693.4 & 0.37 \\
+650.4 & 0.38 &  & 665.0 & 0.38 &  & 679.4 & 0.38 &  & 693.8 & 0.37 \\
+650.8 & 0.38 &  & 665.3 & 0.38 &  & 679.7 & 0.38 &  & 694.1 & 0.37 \\
+651.1 & 0.38 &  & 665.6 & 0.38 &  & 680.1 & 0.38 &  & 694.4 & 0.37 \\
+651.4 & 0.38 &  & 666.0 & 0.38 &  & 680.4 & 0.38 &  & 694.7 & 0.37 \\
+651.8 & 0.38 &  & 666.3 & 0.38 &  & 680.7 & 0.38 &  & 695.1 & 0.37 \\
+652.1 & 0.38 &  & 666.6 & 0.38 &  & 681.1 & 0.38 &  & 695.4 & 0.37 \\
+652.4 & 0.38 &  & 666.9 & 0.38 &  & 681.4 & 0.38 &  & 695.7 & 0.37 \\
+652.8 & 0.38 &  & 667.3 & 0.38 &  & 681.7 & 0.38 &  & 696.0 & 0.38 \\
+653.1 & 0.38 &  & 667.6 & 0.38 &  & 682.0 & 0.38 &  & 696.4 & 0.38 \\
+653.4 & 0.38 &  & 667.9 & 0.38 &  & 682.4 & 0.38 &  & 696.7 & 0.38 \\
+653.7 & 0.38 &  & 668.3 & 0.38 &  & 682.7 & 0.38 &  & 697.0 & 0.38 \\
+654.1 & 0.37 &  & 668.6 & 0.38 &  & 683.0 & 0.38 &  & 697.3 & 0.38 \\
+654.4 & 0.37 &  & 668.9 & 0.38 &  & 683.3 & 0.38 &  & 697.7 & 0.39 \\
+654.7 & 0.37 &  & 669.3 & 0.38 &  & 683.7 & 0.38 &  & 698.0 & 0.39 \\
+655.1 & 0.37 &  & 669.6 & 0.38 &  & 684.0 & 0.38 &  & 698.3 & 0.39 \\
+655.4 & 0.37 &  & 669.9 & 0.38 &  & 684.3 & 0.38 &  & 698.6 & 0.40 \\
+655.7 & 0.37 &  & 670.2 & 0.38 &  & 684.7 & 0.38 &  & 699.0 & 0.39 \\
+656.1 & 0.37 &  & 670.6 & 0.38 &  & 685.0 & 0.38 &  & 699.3 & 0.39 \\
+656.4 & 0.37 &  & 670.9 & 0.38 &  & 685.3 & 0.37 &  & 699.6 & 0.39 \\
+656.7 & 0.37 &  & 671.2 & 0.38 &  & 685.6 & 0.37 &  & 699.9 & 0.40 \\
+\bottomrule
+\captionsetup{font={footnotesize}}
+\caption*{${K_d}(\lambda )$ were determined from in situ measurements of downwelling irradiance according to \autoref{eq:c4e1}. Instrumentation, the study site, and data acquisition conditions are described in \autoref{sssec:Water Column Irradiance Profiles; Calculation of Downwelling Attenuation Coefficients}.}
+\end{longtable}
+\end{flushleft}
+\end{singlespace}
+\end{small}
