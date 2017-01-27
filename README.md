@@ -1,5 +1,5 @@
 # LATEX_thesis
-LATEX code &amp; dependencies for production of my dissertation. Final version submitted on January 20, 2017. Degree to be awarded in February 2017.
+<span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> code &amp; dependencies for production of my dissertation. Final version submitted on January 20, 2017, with degree to be awarded in February 2017. The final submitted version of the dissertation produced using this <span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> is [available here](http://jamesrco.github.io/assets/Collins_thesis.pdf).
 
 Accompanying code and data can be found in several repositories:
 
