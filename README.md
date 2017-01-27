@@ -3,6 +3,6 @@ LATEX code &amp; dependencies for production of my dissertation. Final version s
 
    * Chapter 2:
    * Chapter 3: 
-       *LOBSTAHS R package: https://github.com/vanmooylipidomics/LOBSTAHS/tree/master/inst or http://bioconductor.org/packages/LOBSTAHS
+       - LOBSTAHS R package: https://github.com/vanmooylipidomics/LOBSTAHS/tree/master/inst or http://bioconductor.org/packages/LOBSTAHS
    * Chapter 4, Appendix B: https://github.com/jamesrco/LipidPhotoOxBox; some necessary scripts also in https://github.com/jamesrco/Optics_Photochem
    * Appendix A:
