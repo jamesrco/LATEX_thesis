@@ -13,3 +13,12 @@
 
 # .DS_Store
 *.DS_Store
+
+# LATEX files
+*.aux
+*.synctex.gz
+*.toc
+*.out
+*.log
+*.lof
+*.pdf
