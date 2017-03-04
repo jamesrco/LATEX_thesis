@@ -11,7 +11,7 @@ Accompanying code and data can be found in several repositories:
 
    * Chapter 3:
 
-       - LOBSTAHS R package: https://github.com/vanmooylipidomics/LOBSTAHS/tree/master/inst or http://bioconductor.org/packages/LOBSTAHS
+       - LOBSTAHS R package: https://github.com/vanmooylipidomics/LOBSTAHS/ or http://bioconductor.org/packages/LOBSTAHS
 
        - https://github.com/jamesrco/LipidomicsDataViz (particularly the subdirectory "LOBSTAHS") contains scripts for data analysis and production of figures
 
