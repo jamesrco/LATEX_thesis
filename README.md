@@ -21,7 +21,7 @@ Accompanying code and data can be found in several repositories:
 
        - https://github.com/jamesrco/Optics_Photochem contains additional scripts used to parse and prepare some of the optical data
        
-       - http://dx.doi.org/10.17504/protocols.io.hajb2cn contains the published protocol for preparation of liposomes used in the photo-oxidation experiments
+       - http://dx.doi.org/10.17504/protocols.io.haub2ew contains the published protocol for preparation of liposomes used in the photo-oxidation experiments
 
    * Appendix A:
   
