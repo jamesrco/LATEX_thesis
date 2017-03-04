@@ -1,5 +1,5 @@
 # LATEX_thesis
-<span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> code &amp; dependencies for production of my dissertation. Final version submitted on January 20, 2017, with degree to be awarded in February 2017. The final submitted version of the dissertation produced using this <span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> is [available here](http://jamesrco.github.io/assets/Collins_thesis.pdf) or you may download directly by doi:[10.1575/1912/8721](http://dx.doi.org/10.1575/1912/8721)
+<span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> code &amp; dependencies for production of my dissertation. Final version submitted on January 20, 2017, with degree to be awarded in February 2017. The final submitted version of the dissertation produced using this <span class="tex">L<span class="raise">a</span>T<span class="drop">e</span>X</span> is [available here](http://jamesrco.github.io/assets/Collins_thesis.pdf), or you can download the published version of record directly at doi:[10.1575/1912/8721](http://dx.doi.org/10.1575/1912/8721)
 
 Accompanying code and data can be found in several repositories:
 
